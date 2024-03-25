@@ -1,0 +1,43 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    background-color: grey;
+    color: white;
+    padding-top: 18px;
+    margin-top: 62px;
+    transition: left 0.3s ease; 
+}
+  
+.sidebar.open {
+    left: 0; 
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.menu-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+  
+.menu-item a:hover {
+    text-decoration: underline;
+}
+  
+.menu-item svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

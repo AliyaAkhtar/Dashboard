@@ -1,0 +1,19 @@
+header {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px; 
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px; 
+}
+
+.dashboard {
+    font-size: 2rem;
+    font-weight: bold;
+    /* text-align: center; */
+}
